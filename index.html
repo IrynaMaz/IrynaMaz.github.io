@@ -2,33 +2,133 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+	<title>Homework 8,9,10</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
-	<title>Shop project</title>
 </head>
 <body>
 	<header class="header">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="logo"><a href=""><img src="images/logo.png" alt=""></a></div>
+					<div class="logo">
+						<a href="">
+							<img src="images/logo.png" alt="">
+						</a>
+					</div>		
 				</div>
+				
+
 				<div class="col-md-6">
 					<nav>
 						<ul class="menu">
-							<li><a href="">Home 1</a></li>
-							<li><a href="">Products 2</a></li>
-							<li><a href="">Shipping</a></li>
+							<li><a href="">Home</a></li>
+							<li class="menu__list"><a href="">Products<img src="arrow.png" class="img"></a>
+
+							          <ul class="menu__drop">
+							            <li><a href="#">Lorem ipsum</a></li>
+							            <li><a href="#">Sit amet</a></li>
+							            <li><a href="#">Consectetur</a></li>
+							            <li><a href="#">Tempor</a></li>
+							            <li><a href="#">Dolore</a></li>
+							            <li><a href="#">Et enim</a></li>
+							            <li><a href="#">Quis</a></li>
+							          </ul>
+							</li>
+							 
 							<li><a href="">Payment</a></li>
+							<li><a href="">Shipping</a></li>
 						</ul>
-					</nav>
+					</nav>		
+				</div>	
+
+				<div class="col-md-3">
+
+
+					<form>
+						<input name="query" type="text" placeholder="search" class="col-md-3-input"> 
+						<button type="submit"><img src="images/icon (4).png" class="lupa"></button>
+					</form>
+
+					<div class="cart-top"><img src="images/cart-blue.png">
+					<div class="cart-circle"><p>4</p></div></div>
 				</div>
-				<div class="col-md-3">search</div>
+
+				</div>	
+			</div>
+		</header>	
+
+	<div class="slide"></div>
+
+	<main class="main">
+		<div>
+			<div class="main-30">AAA</div>
+			
+			<div class="main-70">
+				<h6>Home page > Products > <u>Laptops and Tablets</u></h6>
+				<h1>Laptops and Tablets</h1>
+					
+					<ul class="products">
+						<li class="product-1">
+							
+							<div class="product-1-top-right">
+
+								<div class="product-1-top-bracket">
+									<img src="images/bracket-blue.png">
+								</div>
+
+								<div class="product-1-top-heart">
+									<img src="images/heart-blue.png">
+								</div>
+
+							</div>
+
+							<div class="product-1-top">
+								<img src="images/tv.png">
+							</div>	
+							
+							<div class="product-1-bottom">
+								
+								<p class="device-name">#1 Device Name</p>
+								
+								<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+								<p class="type"><b>TYPE:</b> Laptop</p>
+								<p class="screen-size"><b>SCREEN SIZE:</b> 7 inches</p>
+								<p class="ram"><b>RAM:</b> 1GB</p>
+
+								<p class="price">$599<!-- <sup><small>25</small></sup> --></p>
+
+								<div class="more-details">MORE DETAILS</div>
+
+								<div class="add-to-cart">ADD TO CART<img src="images/cart-white.png"></div>
+
+							</div>	
+
+						</li>
+							
+
+						<li class="product-2"></li>
+
+						<li class="product-3"></li>
+
+						<li class="product-4"></li>
+
+						<li class="product-5"></li>
+
+						<li class="product-6"></li>
+
+						<li class="product-7"></li>
+						<li class="product-8"></li>
+						<li class="product-9"></li>
+					</ul>
 			</div>
 		</div>
-	</header>
-	<main class="main">Main</main>
+	</main>	
+
+	<div>
 	<footer class="footer">Footer</footer>
+	</div>
 </body>
 </html>
