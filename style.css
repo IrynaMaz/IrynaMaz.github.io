@@ -106,6 +106,10 @@ body {
 	color: #2c71b8;
 }	*/
 
+.menu__list {
+	background-image: url('arrow.png');
+}
+
 .lupa {
 	position: relative;
 }
@@ -114,9 +118,7 @@ body {
 	position: relative;
 }
 
-.menu li .menu__list {
-	background-image: url('arrow.png');
-}
+
 
 .menu__drop {
 	float: left;
@@ -389,12 +391,14 @@ h1 {
 .more-details {
 	margin-left: 30px;
 	margin-top: 10px;
-	padding-top: 15px;
 	text-align: center;
-	color: white;
+	background-color: inherit;
 	border: 1px solid white;
 	height: 50px;
 	width: 210px;
+	color: white;
+	font-style: inherit;
+	font-size: 12pt;
 }
 
 .add-to-cart {
